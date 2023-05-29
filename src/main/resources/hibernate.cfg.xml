@@ -14,5 +14,9 @@
 
         <mapping class="org.example.oneToMany.model.Question"/>
         <mapping class="org.example.oneToMany.model.Answer"/>
+
+        <mapping class="org.example.oneToOne.model.Parcel"/>
+        <mapping class="org.example.oneToOne.model.ParcelAddress"/>
+
     </session-factory>
 </hibernate-configuration>
