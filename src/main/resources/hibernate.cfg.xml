@@ -18,5 +18,8 @@
         <mapping class="org.example.oneToOne.model.Parcel"/>
         <mapping class="org.example.oneToOne.model.ParcelAddress"/>
 
+        <mapping class="org.example.manyToMany.model.Article"/>
+        <mapping class="org.example.manyToMany.model.Tag"/>
+
     </session-factory>
 </hibernate-configuration>
