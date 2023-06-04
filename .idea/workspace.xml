@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f9c5da3-f826-431c-92f2-42cbea36c722" name="Changes" comment="Hibernate oneToOne">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/manyToMany/ArticlesExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/manyToMany/model/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/manyToMany/model/Tag.java" afterDir="false" />
+    <list default="true" id="7f9c5da3-f826-431c-92f2-42cbea36c722" name="Changes" comment="Hibernate manyToMany">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/AbstractDAOInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/DAOUsageExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/ProjectDAODB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/ProjectService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
@@ -57,7 +59,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ArticlesExample">
+  <component name="RunManager" selected="Application.DAOUsageExample">
     <configuration name="ArticlesExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.manyToMany.ArticlesExample" />
       <module name="hibernate002" />
@@ -71,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BasicDatabaseSave" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.BasicDatabaseSave" />
+    <configuration name="DAOUsageExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.dao.DAOUsageExample" />
       <module name="hibernate002" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DAOUsageExample" />
         <item itemvalue="Application.ArticlesExample" />
         <item itemvalue="Application.ParcelExample" />
         <item itemvalue="Application.QuestionExample" />
         <item itemvalue="Application.EmployeeCRUD" />
-        <item itemvalue="Application.BasicDatabaseSave" />
       </list>
     </recent_temporary>
   </component>
@@ -177,13 +179,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685397712382</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Hibernate manyToMany">
+      <created>1685915310444</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685915310444</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Hibernate CRUD" />
     <MESSAGE value="Hibernate oneToMany" />
     <MESSAGE value="Hibernate oneToOne" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hibernate oneToOne" />
+    <MESSAGE value="Hibernate manyToMany" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hibernate manyToMany" />
   </component>
 </project>

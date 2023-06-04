@@ -21,5 +21,7 @@
         <mapping class="org.example.manyToMany.model.Article"/>
         <mapping class="org.example.manyToMany.model.Tag"/>
 
+        <mapping class="org.example.dao.Project"/>
+
     </session-factory>
 </hibernate-configuration>
