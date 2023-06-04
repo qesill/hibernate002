@@ -22,6 +22,7 @@
         <mapping class="org.example.manyToMany.model.Tag"/>
 
         <mapping class="org.example.dao.Project"/>
+        <mapping class="org.example.lombok.model.Car"/>
 
     </session-factory>
 </hibernate-configuration>
